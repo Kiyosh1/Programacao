@@ -11,6 +11,7 @@ public class validacaoNota {
           System.out.println("nota invalida");
           n1 = input.nextDouble();
       }
+
       n2 = input.nextDouble();
       while(n2 < 0 || n2 > 10){
           System.out.println("nota invalida");
